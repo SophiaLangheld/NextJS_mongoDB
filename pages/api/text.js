@@ -7,7 +7,7 @@ export default async function handler(req, res) {
     console.log(data);
     res.json(data);
 }
-
+/********* */
 /*export default async (req, res) => {
     const { db } = await connectToDatabase();
     const colors = await db
